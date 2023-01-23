@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: #00d8ff;
+  --primary-purple: #6a00ff;
+}
+
+@layer base {
+  * {
+    @apply font-[Kanit];
+  }
+  h1 {
+    @apply text-4xl font-bold bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] rounded;
+  }
+
+  li {
+    @apply p-4;
+  }
+
+  button {
+    @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl;
+  }
+}
+
+.center {
+  @apply grid place-content-center h-screen bg-slate-900;
+}
