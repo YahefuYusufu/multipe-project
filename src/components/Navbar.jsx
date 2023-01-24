@@ -1,10 +1,10 @@
 import React from "react"
-import { menus } from "../data/index"
+import { navbar } from "../data/index"
 import { Link } from "react-router-dom"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
 
 const styles = {
-  header: "absolute w-full h-[76px] bg-slate-900 rounded px-4 ",
+  header: "w-full h-[76px] bg-slate-900 rounded px-4 ",
   nav: "max-w-[1240px] mx-auto px-4 flex justify-between  items-center h-full",
   h1: "text-4xl text-white sm:text-5xl font-bold",
   ul: "flex items-center gap-4",
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         <div className={styles.items}>
           <ul className={styles.ul}>
-            {menus.map((menu, i) => (
+            {navbar.map((menu, i) => (
               <Link to={menu?.link} key={i}>
                 <li className={styles.li}>{menu?.name}</li>
               </Link>

@@ -14,8 +14,7 @@ const Hero = () => {
               Imagination : The Timeless Infinity
             </h2>
             <p className="text-sm md:text-base text-gray-50 mb-4">
-              You can find all my small react projects here. I have been working
-              on many projects
+              You can find all my small react projects here.
             </p>
             <a
               href="/projects"

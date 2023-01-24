@@ -36,5 +36,5 @@ body {
 }
 
 .center {
-  @apply grid place-content-center h-screen bg-slate-900;
+  @apply grid place-content-center h-screen;
 }
