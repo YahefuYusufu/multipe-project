@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+import inProgress from "../assets/images/working.avif"
+
 const navbar = [
   {
     name: "Home",
@@ -12,58 +15,58 @@ const navbar = [
 const projects = [
   {
     id: 1,
-    name: "Project 1",
-    link: "/project-1",
-    image: "/images/project-1.png",
+    name: "My Menu",
+    link: "/mymenu",
+    image: inProgress,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 2,
     name: "Project 2",
     link: "/project-2",
-    image: "/images/project-2.png",
+    image: inProgress,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 3,
     name: "Project 3",
     link: "/project-3",
-    image: "/images/project-2.png",
+    image: inProgress,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 4,
     name: "Project 4",
     link: "/project-4",
-    image: "/images/project-2.png",
+    image: inProgress,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 5,
     name: "Project 5",
     link: "/project-5",
-    image: "/images/project-2.png",
+    image: inProgress,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 6,
     name: "Project 6",
     link: "/project-6",
-    image: "/images/project-2.png",
+    image: inProgress,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 7,
     name: "Project 7",
     link: "/project-7",
-    image: "/images/project-2.png",
+    image: inProgress,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 8,
-    name: "Project 8",
+    name: "Project 18",
     link: "/project-8",
-    image: "/images/project-2.png",
+    image: inProgress,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ]

@@ -55,7 +55,7 @@ const Navbar = () => {
           {openMenu && (
             <div className="">
               <ul className="py-3 space-y-4">
-                {menus.map((menu, i) => (
+                {navbar.map((menu, i) => (
                   <Link to={menu?.link} key={i}>
                     <li className={`block ${styles.li}`}>{menu?.name}</li>
                   </Link>
