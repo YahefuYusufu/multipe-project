@@ -15,7 +15,7 @@ const Cart = ({ name, link, desc, image }) => {
         <img className={styles.img} src={image} alt={image.name} />
       </a>
       <div className={styles.content}>
-        <a href="#">
+        <a href={link}>
           <h5 className={styles.h5}>{name}</h5>
         </a>
         <p className={styles.p}>{desc}</p>
