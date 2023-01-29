@@ -11,6 +11,7 @@ import menu7 from "../assets/images/myMenu/item-7.jpeg"
 import menu8 from "../assets/images/myMenu/item-8.jpeg"
 import menu9 from "../assets/images/myMenu/item-9.jpeg"
 import ourmenu from "../assets/images/myMenu/ourMenu.png"
+import pagination from "../assets/images/pagination/paginationPage.png"
 
 const navbar = [
   {
@@ -33,9 +34,9 @@ const projects = [
   },
   {
     id: 2,
-    name: "Project 2",
-    link: "/projects2",
-    image: inProgress,
+    name: "Pagination",
+    link: "/paginationapp",
+    image: pagination,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {

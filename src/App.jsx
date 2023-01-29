@@ -2,8 +2,7 @@ import React from "react"
 import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import { Home, Projects } from "./pages"
-import MenuApp from "./pages/projects/menuapp/MenuApp"
-import Projects2 from "./pages/projects/Projects2"
+import { MenuApp, PaginationApp } from "./pages/projects/index"
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       {/* Projects Page */}
       <Routes>
         <Route path="/menuapp" element={<MenuApp />} />
-        <Route path="/projects2" element={<Projects2 />} />
+        <Route path="/paginationapp" element={<PaginationApp />} />
       </Routes>
     </>
   )
