@@ -37,7 +37,7 @@ const projects = [
     name: "Pagination",
     link: "/paginationapp",
     image: pagination,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    desc: "github followers pagination app.",
   },
   {
     id: 3,

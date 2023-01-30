@@ -9,10 +9,10 @@ const styles = {
   section: "w-11/12 h-full mx-auto",
   sectionDiv:
     "grid gird-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4",
-  btnDiv: "flex justify-center flex-wrap my-10",
+  btnDiv: "flex justify-center flex-wrap my-8",
   middleBTN:
-    "tracking-wider m-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded",
-  btn: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded",
+    "tracking-wider m-4 bg-blue-500 hover:bg-blue-700 text-white px-2 rounded",
+  btn: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded",
 }
 
 const PaginationApp = () => {
