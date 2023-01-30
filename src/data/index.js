@@ -19,8 +19,12 @@ const navbar = [
     link: "/",
   },
   {
-    name: "Projects",
-    link: "/projects",
+    name: "My Menu",
+    link: "/menuapp",
+  },
+  {
+    name: "Pagination",
+    link: "/paginationapp",
   },
 ]
 
