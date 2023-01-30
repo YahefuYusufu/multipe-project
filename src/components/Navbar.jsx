@@ -35,7 +35,7 @@ const Navbar = () => {
                 <li className={styles.li}>{menu?.name}</li>
               </Link>
             ))}
-            {/* <button className="btn">JS.R</button> */}
+            <button className="btn">JS.R</button>
           </ul>
         </div>
         {/* Hamburger menu */}
