@@ -20,6 +20,11 @@ const PaginationApp = () => {
   const [page, setPage] = React.useState(0)
   const [followers, setFollowers] = React.useState([])
 
+  React.useEffect(() => {
+    if (loading) return
+    setFollowers(data[page])
+  }, [loading, page])
+
   const prevPage = () => {
     setPage((oldPage) => {
       let prevPage = oldPage - 1
@@ -40,10 +45,6 @@ const PaginationApp = () => {
     })
   }
 
-  React.useEffect(() => {
-    if (loading) return
-    setFollowers(data[page])
-  }, [page])
   return (
     <main>
       <div className={styles.main}>

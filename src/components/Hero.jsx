@@ -29,8 +29,12 @@ const Hero = () => {
             <p className={styles.p}>
               You can find all my small react projects here.
             </p>
-            <a href="/projects" className={styles.a}>
-              Explore Now
+            <a
+              href="https://github.com/YusufYakup/multipe-project"
+              target="_blank"
+              className={styles.a}
+            >
+              Code Source
             </a>
           </div>
           <div className={styles.imgContainer}>

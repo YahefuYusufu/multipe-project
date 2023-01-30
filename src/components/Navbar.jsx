@@ -35,7 +35,7 @@ const Navbar = () => {
                 <li className={styles.li}>{menu?.name}</li>
               </Link>
             ))}
-            <button className="btn">JS.R</button>
+            {/* <button className="btn">JS.R</button> */}
           </ul>
         </div>
         {/* Hamburger menu */}
@@ -60,7 +60,7 @@ const Navbar = () => {
                     <li className={`block ${styles.li}`}>{menu?.name}</li>
                   </Link>
                 ))}
-                <button className="btn">JS_R</button>
+                {/* <button className="btn">JS_R</button> */}
               </ul>
             </div>
           )}

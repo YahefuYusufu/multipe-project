@@ -1,6 +1,6 @@
 import React from "react"
 
-import { items } from "../../../data/index"
+import { items } from "../../data/index"
 
 import Category from "./Category"
 import Menu from "./Menu"

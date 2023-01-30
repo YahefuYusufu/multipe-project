@@ -2,7 +2,7 @@ import React from "react"
 import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import { Home, Projects } from "./pages"
-import { MenuApp, PaginationApp } from "./pages/projects/index"
+import { MenuApp, PaginationApp, HackerApp } from "./projects/index"
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/menuapp" element={<MenuApp />} />
         <Route path="/paginationapp" element={<PaginationApp />} />
+        <Route path="/hackerapp" element={<HackerApp />} />
       </Routes>
-      {/* Projects Page */}
     </>
   )
 }

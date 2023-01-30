@@ -26,6 +26,10 @@ const navbar = [
     name: "Pagination",
     link: "/paginationapp",
   },
+  {
+    name: "Hacker News",
+    link: "/hackerapp",
+  },
 ]
 
 const projects = [
