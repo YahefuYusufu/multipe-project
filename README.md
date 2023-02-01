@@ -9,7 +9,7 @@
   </a>
 </p>
 
-#This is a YOUTUBE_CLONE app, as you know that you can search vedio and any channel.
+#This is a YOUTUBE_CLONE app, as you know that you can search vedio and any channel.</br>
 #FUll responsive.
 
 
