@@ -9,9 +9,9 @@ const styles = {
   section: "w-11/12 h-full mx-auto",
   sectionDiv:
     "grid gird-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4",
-  btnDiv: "flex justify-center flex-wrap my-8",
+  btnDiv: "flex justify-center flex-wrap my-4",
   middleBTN:
-    "tracking-wider m-4 bg-blue-500 hover:bg-blue-700 text-white px-2 rounded",
+    "tracking-wider m-2 bg-blue-500 hover:bg-blue-700 text-white px-2 rounded",
   btn: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded",
 }
 
@@ -52,11 +52,6 @@ const PaginationApp = () => {
         <div className={styles.underline}></div>
       </div>
       <section className={styles.section}>
-        <div className={styles.sectionDiv}>
-          {followers.map((follower) => {
-            return <Cart key={follower.id} {...follower} />
-          })}
-        </div>
         {!loading && (
           <div className={styles.btnDiv}>
             <button className={styles.btn} onClick={prevPage}>
@@ -78,6 +73,11 @@ const PaginationApp = () => {
             </button>
           </div>
         )}
+        <div className={styles.sectionDiv}>
+          {followers.map((follower) => {
+            return <Cart key={follower.id} {...follower} />
+          })}
+        </div>
       </section>
     </main>
   )
