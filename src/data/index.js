@@ -30,6 +30,10 @@ const navbar = [
     name: "Hacker News",
     link: "/hackerapp",
   },
+  {
+    name: "Todo App",
+    link: "/todoapp",
+  },
 ]
 
 const projects = [
